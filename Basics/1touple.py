@@ -17,6 +17,7 @@ touple4 = ("chenchu", "reddy",1,2,3,4,True,False) #allow to store multiple datat
 print(touple4)
 touple5 = touple4 #assigning one to
 print(touple5)
+print(touple)
 
 
 
