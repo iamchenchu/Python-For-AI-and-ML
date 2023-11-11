@@ -18,6 +18,7 @@ print(9 in A )                           # prints True coz 9 is present in the s
 D = A & B                                # will create a set of D with common elements in A and B
 print(D)                                 # prints the entire D set
 print(D.issubset(A))                     # prints True coz D is a subset of A
+print(A.union(B))                        # prints all the elemets in the both A and B sets
 
 
  
