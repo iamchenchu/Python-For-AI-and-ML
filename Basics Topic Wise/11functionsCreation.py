@@ -14,10 +14,7 @@ def mul(a,b):                                               # a function can hav
     return print(c)                                         # a function must have a return type to return the output of the function 
 mul(10,20)
 
-def thesum(*numbers):
+def my_function(*kids):                                     # If the number of arguments is unknown, add a * before the parameter name:
+  print("The youngest child is " + kids[2])
 
-    total_sum = sum(numbers)
-
-    return print(total_sum)
-
-thesum((1,2,3,4,5))
+my_function("Emil", "Tobias", "Linus")

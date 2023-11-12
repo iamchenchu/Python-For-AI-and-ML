@@ -19,3 +19,4 @@ print(A or B ) # return True coz in or operator, if any of the one state is true
 
 
 
+

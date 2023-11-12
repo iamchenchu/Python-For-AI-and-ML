@@ -1,4 +1,5 @@
-#Python is an object oriented programming language.
+#Python is an object oriented programming language. Class: A class is a blueprint for creating objects. It defines the structure and behavior of objects. In Python, 
+#you create a class using the class keyword.
 #Almost everything in Python is an object, with its properties and methods. A Class is like an object constructor, or a "blueprint" for creating objects.
 #The self parameter is a reference to the current instance of the class, and is used to access variables that belong to the class.
 
