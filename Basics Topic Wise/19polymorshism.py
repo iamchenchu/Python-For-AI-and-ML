@@ -1,0 +1,2 @@
+# polymorphism simply means having many forms, for example if we want to add dynamic properties to out code then we can create using this concept
+# diffrent classes to  respond to the same method or attribute in a way that's specific to their class, it allows for flexibility

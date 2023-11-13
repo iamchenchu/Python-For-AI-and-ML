@@ -1,0 +1,4 @@
+This is the text file content line 1 of file3
+This is the text file content line 2 of file3
+This is the text file content line 3 of file3
+This is the text file content line 4 of file3
