@@ -16,5 +16,6 @@ print(tableform.index)                   # RangeIndex(start=0, stop=5, step=1)
 print(tableform.shape)                   # prints the dimensions of the series  in this case 5
 print(tableform.sum())                   # concatenate the string and print RamSitaKrishnaRadhaRavan
 print(tableform.unique())                # prints all the unique values in the series 
-print(len(tableform.unique())) 
+print(len(tableform.unique()))           # prints the length of the unique values in the series
+
 

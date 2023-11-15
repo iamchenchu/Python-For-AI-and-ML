@@ -1,6 +1,4 @@
-# we can import some data using .csv into this program 
-# we can take all the necessary data applying the methods or attributes 
-# we can also copy the data to new .csv file here and create the new one with the new name 
+
 
 import pandas as pd
 

@@ -12,5 +12,6 @@ print(df)
 print(df.columns)       # prints all the names of columns or keys in the list
 print(len(df.columns))  # prints the length of the keys
 print(df.shape)         # it prints the shape of the matrix size (6,3) means (6 values, 3 keys)
-print(df.values)     
+print(df.values)        # prints only values in a list for each key 
+
  

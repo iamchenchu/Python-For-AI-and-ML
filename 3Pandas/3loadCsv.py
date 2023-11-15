@@ -7,3 +7,4 @@ import pandas as pd
 data = pd.read_csv("mock_data.csv")                    # loading the data to python using the read_csv() methos
 
 print(data)                                            # printing the data of csv file
+
