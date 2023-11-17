@@ -10,4 +10,5 @@ print(a[0])                                 # we can access the array using the 
 print(len(a))                               # we can find the lenght of the array
 print(np.__version__)                       # version of the np
 print(type(a))                              # prints as numpy.ndarray
-print(a.dtype)
+print(a.dtype)                              # prints the data type 
+

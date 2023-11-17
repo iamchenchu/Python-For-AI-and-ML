@@ -17,9 +17,22 @@ print(a[1:8:2])             # prints all the even index elements
 
 
 
-list =np.array([1,2,6,4,7,98,14])     # creation of new list
-print(list)                         # printing the list
-indexlist = [0,1,3,4]               # 
-c = list[indexlist]                    # passing select list as an index of list
-print(c)
+list =np.array([1,2,6,4,7,98,14])       # creation of new list
+print(list)                             # printing the list
+indexlist = [0,1,3,4]                   #  creating the list of indexes
+c = list[indexlist]                     # passing select list as an index of list
+print(c)                                # we are able to print the values of indexlist
+
+# output 
+"""[32 12 54 76 23 54 23 64 98 18 25]
+[100  12  54  76  23  54  23  64  98  18  25]
+<class 'numpy.ndarray'>
+[12 54 76 23 54]
+[12 76]
+[100  12  54  76]
+[23 54 23 64 98 18 25]
+[12 54 76 23]
+[12 76 54 64]
+[ 1  2  6  4  7 98 14]
+[1 2 4 7]"""
 

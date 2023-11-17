@@ -12,7 +12,7 @@ print(add)
 substract = array1 - array2   # substraction
 print(substract)
 
-divi = array2/array2          # 
+divi = array2/array2          # division
 print(divi)
 
 
