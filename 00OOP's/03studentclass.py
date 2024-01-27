@@ -2,6 +2,8 @@ class Student:
     ...                           #pass
 
 
+""" Now we have a special data type called Student which data attributes or instance variables could be mutable and 
+    immudtable and we need to write some extra code for that """
 
 def main ():
     student = get_student()

@@ -9,7 +9,7 @@ def get_student():
     student = {}
     student["name"] = input("Name :")
     student["house"] = input("House :")
-    return student
+    return student                                       # we are returning the dictionaries which are mutable 
 
 if __name__ == "__main__":
     main()

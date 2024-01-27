@@ -1,5 +1,9 @@
 class Student:
     def __init__(self, name, house):    #Initializing the attributes of the object the class it is also called as dundur method or magic method
+        if not name:
+            raise ValueError("Missing name")
+        if house not in ["India", "usa"]:
+            raise ValueError("Incorrect house address")
         self.name = name
         self.house = house
 
@@ -7,7 +11,6 @@ class Student:
         return f"{self.name} from {self.house}"
 
 """Object Creation:
-
 When you create a new instance of a class, Python automatically calls the __new__ method to create the object.
 After the object is created, the __init__ method is called to initialize the object's attributes.
 """
@@ -15,8 +18,7 @@ After the object is created, the __init__ method is called to initialize the obj
 def main ():
     student = get_student()
     print(student)      
-
-
+    
 def get_student():
     name = input("Name :")
     house = input("House :")
