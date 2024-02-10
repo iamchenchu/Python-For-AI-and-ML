@@ -21,4 +21,12 @@ price = 49.95
 myorder = "I want {} pieces of item {} for {} dollars."
 print(myorder.format(quantity, itemno, price))
 
+txt1 = "We are the so-called \"Vikings\" from the north."
+print(txt1)
+txt2 = "We are the so-called from the north india.\n but i live in south india"
+print(txt2)
+
+
+
+
 
