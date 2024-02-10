@@ -24,3 +24,16 @@ print(z)
 print(type(z))
 
 
+# Strings
+director = "rajamouli"
+language = 'Telugu'
+
+print(director)
+print(language)
+print(director  +" from "+ language+" language")
+
+a = """I am mekalathuru chenchaiah from tirupathi, Currently I am pursuing the master of science at USD"""
+print(a)
+
+b = '''He not interested in sales job'''
+print(b)
