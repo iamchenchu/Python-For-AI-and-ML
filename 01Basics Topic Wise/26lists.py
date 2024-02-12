@@ -2,6 +2,7 @@
 # ordered, mutable, duplicates allowed, can save different data types in one variable, type of the class is list
 # Also called collection data types in the python programming language List, Tuple, Set, Dictionary
 
+
 # Creating the list
 team = ["ram", "bheem", "suresh", "naresh", "krish", "teja", "ram", "muniram", "vinodh", "subbu"]
 print(team)
