@@ -16,8 +16,6 @@ print(f"Hello {name}, I hope you will learn the python language soon")
 
 """
 what ever between this 2 triple string quotes is a comment 
-
-print(*objects, sep='', end='\n', file = sys.stdout, flush=False)
 """
 print("Hello "+ name) #Concatenation
 

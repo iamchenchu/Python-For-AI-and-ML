@@ -19,3 +19,5 @@ p = input("name of a person :")
 wish(p)
 wish()  # Function override will work here in this case 
 
+
+
