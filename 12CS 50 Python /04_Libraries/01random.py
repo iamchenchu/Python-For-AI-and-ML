@@ -8,3 +8,5 @@ random.shuffle(cards)    # shuffles the cards in the list
 for card in cards:
     print(card)
 
+
+
