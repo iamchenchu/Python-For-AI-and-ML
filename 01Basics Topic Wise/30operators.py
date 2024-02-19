@@ -1,3 +1,11 @@
+"""Arithmetic operators
+Assignment operators
+Comparison operators
+Logical operators
+Identity operators
+Membership operators
+Bitwise operators"""
+
 # "Arithmetic operators  : +, -, *, /, %, //, **"
 a = 10 # we are using the assignment operator here 
 b = 3
@@ -50,6 +58,7 @@ print(6 & 3)
 print(6 | 3)
 print(6 ^ 3) 
 print(~3)
+
 
 
 

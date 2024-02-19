@@ -11,3 +11,5 @@ def test_square():
 
 if __name__ == "__main__":
     main()
+
+# should run this as : python3 test_calculator.py
