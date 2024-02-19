@@ -27,7 +27,7 @@ re.
 
 import re
 
-email = input("What is your email : ")
+email = input("What is your email : ").strip()
 
 if re.search(r"^\w|\W+@\w+\.edu$", email):   # | means OR = \w means all the words or any special type other than word chars
     print("Valid")

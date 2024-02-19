@@ -23,11 +23,13 @@ $	Ends with	                                                                    
 re.IGNORECASE
 re.MULTILINE
 re.
+A|B         : either A or B
+
 """
 
 import re 
 
-email = input("What's your email : ")
+email = input("What's your email : ").strip()
 
 if re.search(r"^\w|\W+@\w|\W+\.edu|\.com$", email, re.IGNORECASE):
     print("Valid")
