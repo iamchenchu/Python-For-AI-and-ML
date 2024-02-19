@@ -13,4 +13,3 @@ images[0].save(
 )
 
 # should run this as:  python3 15costumes.py costume1.gif costume2.gif
-# 
