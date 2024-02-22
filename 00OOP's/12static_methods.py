@@ -5,8 +5,6 @@ Static methods : Methods those don't use self parameters(works at class level)
 Decorators : allow us to wrap another function in order to extend the behaviour of the wrapped function, without permanently modyfying it
 
 """
-
-
 class Student:
     college = "University of South Dakota"
     def __init__(self, name, marks):
