@@ -20,3 +20,5 @@ print(student1.percentage)
 
 student1.phy = 86
 print(student1.percentage)
+
+
