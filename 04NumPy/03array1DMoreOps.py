@@ -13,3 +13,15 @@ print(a.min())                    # prints the min value in the elements
 print(a.ndim)                     # prints the number of the array dimentions or rank of the array
 print(a.std())                    # prints the standard deviation of the array
 
+"""
+[ 0  1  2  3  4  5  6 78  9 10]
+10
+118
+78
+11.8
+(10,)
+0
+1
+22.279138223908035
+
+"""
