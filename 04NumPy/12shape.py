@@ -13,3 +13,13 @@ print("Array dimenstion is :",arr1.ndim)
 print("Array shape is :", arr1.shape)
 print("Array size is :", arr1.size)
 
+
+"""
+(2, 5)
+[[[[[1 3 5 7 9]]]]]
+Array dimenstion is : 5
+Array shape is : (1, 1, 1, 1, 5)
+Array size is : 5
+
+"""
+
