@@ -18,6 +18,9 @@ print(f"The 2nd array is : \n{a2}")
 # Stack the arrays vertically 
 vert_stack = np.vstack((a1, a2))
 print(vert_stack)
+print(vert_stack.ndim)
+print(vert_stack.shape)
+print(vert_stack.size)
 
 horiz_stack = np.hstack((a1, a2))
 print(horiz_stack)

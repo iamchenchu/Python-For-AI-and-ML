@@ -13,8 +13,11 @@ arr3 = np.empty(10)
 print(arr3)
 # np.random.rand() - Returns a new array with values chosen at random
 arr4 = np.random.rand(5)
-print(arr4)
+print(arr4.astype(int))
 
+print(arr.ndim)
+print(arr.shape)
+print(arr.size)
 """
 [1. 1. 1. 1. 1.]
 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]

@@ -4,6 +4,9 @@ two_dim_array = np.array([[1, 2, 3],
                           [4, 5, 6],
                           [7, 8, 9]])
 
+print(two_dim_array.ndim)
+print(two_dim_array.shape)
+print(two_dim_array.size)
 # Select element number 8 from the 2D array using i, j
 print(two_dim_array[2][1])
 print(two_dim_array[0][0])
