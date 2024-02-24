@@ -1,6 +1,6 @@
 name = "Chenchu Reddy" # name is a variable which stores the value of string which is Chenchu Reddy
 
-print(name[0]) # prints the first index of the string
+print(name[0]) # prints the first index of the string"""
 print(len(name)) # prints the length of the string
 print(name[-1]) # prints the last letter of the string
 print(name[12]) 
@@ -11,8 +11,8 @@ print(name[1:6]) # prints the all letters from index 1 to till 5
 print(name.upper()) # prints entire string in uppercase
 print(name.lower()) # prints entire string in lowercase
 d =name[0:10:2]# d stores every 2nd index of the string name from 1st index till the 9th index
-print(d)
-print(name+" he is the best") # concatinating the string 
+print("name[0:10:2] :", d)
+print(name +" he is the best") # concatinating the string 
 print(3*name) # prints the name 3 times
 name = name + name
 print(name) # we can not mutate the string but can create new string 
