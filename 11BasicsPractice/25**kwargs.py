@@ -3,3 +3,5 @@ def func(*args, **kwargs):
     print("Keyword arguments:", kwargs) # **kwargs means : u can define any number of variables in the method dynamically
 
 func(1, 2, 3, a='foo', b='bar', c =30)
+
+func(1, 2, 3, a1='fooqsq', b1='basqdr', c1 =30)
