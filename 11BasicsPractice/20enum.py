@@ -30,3 +30,6 @@ print(type(Season.SPRING))
 print(repr(Season.SPRING))
 print(list(Season))
 
+print()
+print()
+
