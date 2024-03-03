@@ -1,10 +1,10 @@
-"""Arithmetic operators
+""" Arithmetic operators
 Assignment operators
 Comparison operators
 Logical operators
 Identity operators
 Membership operators
-Bitwise operators"""
+Bitwise operators """
 
 # Arithmetic operators +, -, /, %, **, //
 a = 103
