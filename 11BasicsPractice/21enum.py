@@ -12,3 +12,5 @@ print("The enum member associated with name AUTUMN is : ", Season['AUTUMN'].valu
 for season in (Season):
     print(season.value, "-", season)
 
+    
+
