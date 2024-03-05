@@ -14,9 +14,14 @@ class Student:
         for v in self.marks:
             sum = 0
             sum += v
-        print(f"The student {self.name} got the average score of {sum/3}")
+        print(f"Hi {self.name}, you got the average score of {sum/3} in your last semester.")
     
         
 
 s1 = Student("Chenchu", [80, 93, 95])
 s1.average()
+
+s1.name = "Rajia" # now the name of the object s1 will be changed
+s1.average()
+
+
