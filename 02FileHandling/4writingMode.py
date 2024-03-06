@@ -1,5 +1,5 @@
 # "w" specifies that intend to write data to the file
-#We use the with statement to ensure that the file is automatically closed when the code block exits. This helps manage resources efficiently.
+# We use the with statement to ensure that the file is automatically closed when the code block exits. This helps manage resources efficiently.
 # in this example I want to write to the file and also I want to read it so I will open it in the "w+" mode for reading and writing
 
 with open("writing.txt","w+") as file1:   # opens the file in writing mode, it creates the new file if the file doesnot exist in the dir
