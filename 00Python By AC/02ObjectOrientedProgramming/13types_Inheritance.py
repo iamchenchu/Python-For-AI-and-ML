@@ -1,7 +1,7 @@
 """
 Single Inheritance : will get inherited from single parent class
 Multi Level Inheritance : the class is derived from a class which is inherited from another class
-Multiple Inheritance : 
+Multiple Inheritance : the child class will inherit from 2 parent classes at a time
 
 """
 

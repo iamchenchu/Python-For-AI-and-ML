@@ -1,3 +1,5 @@
+# Multiple Inheritance : the child class will inherit from 2 parent classes at a time
+
 class A:
     varA = "Welcome to class A"
 
