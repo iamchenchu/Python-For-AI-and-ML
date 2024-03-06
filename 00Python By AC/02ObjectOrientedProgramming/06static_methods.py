@@ -1,7 +1,6 @@
 """
 Methods that don't use the self parameter (works at class level)
 We don't use the self parameters in the static methods 
-
 Decorators : Decorators allow us to wrap another function in order to extend the behaviour of the wrapped function, without permanently modyfying it
 
 """
