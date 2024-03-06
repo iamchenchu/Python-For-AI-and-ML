@@ -4,8 +4,8 @@
 
 with open("writing.txt","w+") as file1:   # opens the file in writing mode, it creates the new file if the file doesnot exist in the dir
     file1.write("this is line A \n")     # this line will be written to the file 
-    file1.write("this is line B\n")      # this line will be written to the file 
-    file1.write("this is line C\n")  
+    file1.write("this is line B \n")      # this line will be written to the file 
+    file1.write("this is line C \n")  
     # Reset the file pointer to the beginning to read the content
     file1.seek(0)
     content = file1.read()               # this read() method will read the all the content in the file and store it in the content variable

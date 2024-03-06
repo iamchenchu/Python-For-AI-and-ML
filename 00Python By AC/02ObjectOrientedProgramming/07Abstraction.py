@@ -1,7 +1,7 @@
 """
 Abstraction :  Hiding the implementation of a class and only showing the essential features to user
-
-Encapulation : Wrapping data and functions into a single unit (Object) : means what ever we did so far, we are creating functions and attributed and wrapping them into objects 
+Encapulation : Wrapping data and functions into a single unit (Object) : means what ever we did so far, we are
+creating functions and attributed and wrapping them into objects 
 """
 class Car :
     def __init__(self):

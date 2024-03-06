@@ -1,6 +1,5 @@
 """
 Super :  super() method is used to acees the methods of the parent class
-
 """
 
 class Car:
@@ -24,3 +23,7 @@ class ToyotaCar(Car):
 car1 = ToyotaCar("Prius", "electric")
 print(car1.type) # can access as we are doign this usign the super method 
 print(car1.name)
+
+
+
+

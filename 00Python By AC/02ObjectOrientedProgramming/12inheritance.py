@@ -1,6 +1,5 @@
 """
 Inheritance : When one class (child/derived) derives the properties & methods of another class(parent/base)
-
 """
 
 class Car:
@@ -12,7 +11,7 @@ class Car:
     @staticmethod
     def stop():
         print("Car Stopped...")
-    
+
 class ToyotaCar(Car):
     def __init__(self, name):
         self.name = name
