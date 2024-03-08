@@ -14,13 +14,16 @@ class Student:
         return percentage
 
 
-s1 = Student(99, 95, 98)
-print(s1.percentage)
-print(s1.calcPercentage())
+student1 = Student(92, 95, 98)
+print(student1.percentage)
 
-s1.sub3 = 85
-print(s1.percentage)  # will show the wrong value 
-print(s1.calcPercentage())  # will work
+
+student1.chemistry = 100 # Changing the object value 
+ 
+print(student1.percentage)   # it's not changing the percentage as it's not getting effected by the object modification
+print(student1.chemistry)
+
+print(student1.calcPercentage())
 
 
 

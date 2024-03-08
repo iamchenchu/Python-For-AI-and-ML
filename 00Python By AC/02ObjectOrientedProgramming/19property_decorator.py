@@ -9,12 +9,18 @@ class Student:
         self.chemistry = chem
         self.maths = math
         self.percentage = str((self.physics + self.chemistry + self.maths)/3) + "%"
+    @property
+    def calPercentage(self):
+        return str((self.physics + self.chemistry + self.maths)/ 3) + "%"
+    
 
+s1 = Student(99, 98, 97)
 
-student1 = Student(92, 95, 98)
-print(student1.percentage)
+print(s1.calPercentage) # now we can call this as an attribute we no need to call this as a methods 
 
+s1.physics = 63 # changes the marks 
 
-student1.chemistry = 100 # Changing the object value 
+print(s1.calPercentage) # automatically it changes after changign the object attribute value also 
+
+    
  
-print(student1.percentage)   # it's not changing the percentage as it's not getting effected by the object modification
