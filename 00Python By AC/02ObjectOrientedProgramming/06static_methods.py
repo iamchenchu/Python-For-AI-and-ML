@@ -5,11 +5,12 @@ Decorators : Decorators allow us to wrap another function in order to extend the
 
 """
 class Student:
-    def __init__(self, name, city):
+    city = "Vermillion"
+    def __init__(self, name):
         self.name = name
-        self.city = city
+        #self.city = city
 
-    @staticmethod
+    #@staticmethod
     def hello():
         print("Hello to the world of decorators!!")
 
@@ -17,6 +18,6 @@ class Student:
         print(f"Hi {self.name}, Welcome to the {self.city} city.")
         self.hello()
 
-s1 = Student("Chenchu Reddy", "Vermillion")
+s1 = Student("Chenchu Reddy")
 s1.welcome()
 s1.hello()

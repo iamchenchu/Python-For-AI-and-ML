@@ -19,10 +19,10 @@ class Student:
         print("Adding a new student in the database")
 
 s1 = Student() # the parenthsis are is for calling the constructor
-print(s1.name)
-
 s2 = Student()
+
 print(s1.name)
+print(s2.name)
 
 
 
